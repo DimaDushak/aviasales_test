@@ -1,0 +1,28 @@
+.ticket {
+    background-color: var(--white);
+    box-shadow: 0 2px 8px var(--greyShadow);
+    padding: 19px 19px 11px;
+    border-radius: 5px;
+}
+
+.ticketTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.ticketImage {
+    width: 25%;
+}
+
+@media all and (min-width: 620px) and (max-width: 794px) {
+
+    .ticketTop {
+        padding-right: 70px;
+    }
+
+    .ticketImage {
+        width: 20%;
+    }
+}

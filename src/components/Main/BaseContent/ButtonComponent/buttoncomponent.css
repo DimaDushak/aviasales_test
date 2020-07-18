@@ -1,0 +1,19 @@
+.notActiveButton {
+    border: 1px solid var(--greyButtonBorder);
+    background-color: var(--white);
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+    color: var(--black);
+}
+
+.notActiveButton:hover {
+    color: var(--blue);
+    background-color: var(--aqua);
+    border-color: var(--blue);
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+.activeButton {
+    color: var(--white);
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}

@@ -1,0 +1,18 @@
+.popup {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: var(--popupBackground);
+    transition: opacity 1s, visibility 1s;
+}
+
+.popupHidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popupVisible {
+    opacity: 1;
+    visibility: visible;
+}

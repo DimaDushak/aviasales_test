@@ -1,0 +1,64 @@
+.black {
+    color: var(--black);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.s12 {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+}
+
+.s12lh15 {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
+
+.s13 {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.s14 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.s24 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.w600 {
+    font-weight: 600;
+}
+
+@media all and (max-width: 459px) {
+
+    .m9 {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .m11 {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .m20 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}

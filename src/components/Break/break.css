@@ -1,0 +1,34 @@
+.inline {
+    display: inline;
+}
+
+.s19 {
+    margin-right: 19px;
+}
+
+.s30 {
+    margin-right: 30px;
+}
+
+.top.s7 {
+    margin-top: 7px;
+}
+
+.top.s17 {
+    margin-top: 17px;
+}
+
+.top.s19 {
+    margin-top: 19px;
+}
+
+.top.s20 {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 459px) {
+
+    .top.m10 {
+        margin-top: 10px;
+    }
+}

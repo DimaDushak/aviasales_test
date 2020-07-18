@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 32px;
+}
+
+@media all and (max-width: 459px) {
+
+    .header {
+        padding: 20px 0 12px;
+    }
+}

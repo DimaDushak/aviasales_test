@@ -1,0 +1,41 @@
+.filterSpan {
+    display: flex;
+    position: relative;
+}
+
+.filterSpan:before {
+    content: '';
+    width: 18px;
+    border: 1px solid;
+    border-color: var(--greyInputBorder);
+    transition: border-color 0.3s;
+    border-radius: 2px;
+    margin-right: 10.5px;
+}
+
+.filterSpan:after {
+    content: '';
+    background-image: url('/images/Shape.svg');
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+} 
+
+.filterInput {
+    display: none;
+}
+
+.filterInput:checked + .filterSpan::after {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.filterInput:checked + .filterSpan::before {
+    border-color: var(--blue);
+    transition: border-color 0.3s;
+}

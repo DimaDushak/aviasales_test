@@ -1,0 +1,22 @@
+.ticketTable {
+    width: 100%;
+}
+
+.firstTh {
+    width: 35%;
+}
+
+.secondTh {
+    width: 35%;
+}
+
+@media all and (max-width: 459px) {
+
+    .firstTh {
+        width: 38%;
+    }
+
+    .secondTh {
+        width: 28%;
+    }
+}

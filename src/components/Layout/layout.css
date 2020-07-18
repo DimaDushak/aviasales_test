@@ -1,0 +1,14 @@
+.layout {
+    max-width: 794px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media all and (max-width: 459px) {
+
+    .layout {
+        max-width: 794px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+}

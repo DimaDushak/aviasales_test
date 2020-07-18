@@ -1,0 +1,52 @@
+.filtersForm {
+    width: 31%;
+    background-color: var(--white);
+    padding: 11px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px var(--greyShadow);
+    height: 100%;
+}
+
+.label {
+    cursor: url(/images/Cursor.png), pointer;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.label:hover {
+    background-color: var(--aqua);
+    transition: background-color 0.3s;
+}
+
+.heading {
+    padding: 8.5px 20px;
+}
+
+.closeButton {
+    position: absolute;
+    font-size: 20px;
+    top: 7px;
+    right: 7px;
+    color: var(--blue);
+}
+
+@media all and (max-width: 794px) {
+
+    .filtersForm {
+        transition: bottom 1s;
+        position: absolute;
+        width: 232px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: auto;
+    }
+
+    .filtersFormHidden {
+        bottom: -100px;
+    }
+
+    .filtersFormVisible {
+        bottom: 50%;
+    }
+}

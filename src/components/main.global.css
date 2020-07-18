@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.eot');
+    src: url('/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/OpenSans-Regular.woff') format('woff'),
+    url('/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-SemiBold.eot');
+    src: url('/fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/OpenSans-SemiBold.woff') format('woff'),
+        url('/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    --blue: #2196F3;
+    --aqua: #F1FCFF;
+    --white: #FFFFFF;
+    --black: #4A4A4A;
+    --grey: #A0B0B9;
+    --greyButtonBorder: #DFE5EC;
+    --greyInputBorder: #9ABBCE;
+    --greyShadow: rgba(0, 0, 0, 0.1);
+    --popupBackground: rgba(0, 0, 0, 0.4);
+    --mainBackground: #F3F7FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--black);
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+	min-width: 320px;
+    background-color: var(--mainBackground);
+}
+
+button {
+    outline: 0;
+    cursor: url(/images/Cursor.png), pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: url(/images/Cursor.png), pointer;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
